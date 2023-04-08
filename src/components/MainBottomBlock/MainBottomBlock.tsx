@@ -5,7 +5,7 @@ import Trades from '../Trades/Trades';
 
 function MainBottomBlock() {
   return (
-    <div className="sm:grid sm:grid-cols-[1fr_250px]">
+    <div className="sm:grid sm:grid-cols-[1fr_250px] md:flex md:flex-row-reverse">
       <OrderBook />
       <StartTrading />
       <DepthChart />

@@ -12,7 +12,7 @@ function Trades() {
           </svg>
         </span>
       </div>
-      <div className="flex border-b border-gray-700 p-1 text-small">
+      <div className="flex border-b border-l border-gray-700 p-1 text-small">
         <p className="flex-1 text-right">Amount</p>
         <p className="flex-1 text-right">Time</p>
         <p className="flex-1 text-right">Price</p>

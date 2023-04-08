@@ -1,23 +1,23 @@
 function OrderBook() {
   return (
-    <div className="hidden sm:flex sm:flex-col text-gray-400 text-xs md:hidden">
-      <p className="uppercase border-b border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t">
+    <div className="hidden sm:flex sm:flex-col text-gray-400 text-xs md:flex-1">
+      <p className="uppercase border-b border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t md:border-l">
         Order Book
       </p>
-      <div className="flex flex-1 text-small border-b border-gray-700 bg-zinc-800">
+      <div className="flex flex-1 text-small bg-zinc-800">
         <div className="flex flex-col flex-1">
-          <div className="flex p-1">
+          <div className="flex p-1 border-b border-l border-gray-700">
             <p className="flex-1 text-right">Amount</p>
             <p className="flex-1 text-right">Bid</p>
           </div>
-          <img className="flex-1 object-fill" src="/img/1.png" alt="order-1" />
+          <img className="md:max-h-60 flex-1 object-fill" src="/img/1.png" alt="order-1" />
         </div>
-        <div className="flex flex-col flex-1">
-          <div className="flex p-1">
+        <div className="flex flex-col flex-1 ">
+          <div className="flex p-1 border-b border-gray-700">
             <p className="flex-1">Ask</p>
             <p className="flex-1 text-right">Amount</p>
           </div>
-          <img className="flex-1 object-fill" src="/img/2.png" alt="order-2" />
+          <img className="md:max-h-60 flex-1 object-fill" src="/img/2.png" alt="order-2" />
         </div>
       </div>
     </div>
