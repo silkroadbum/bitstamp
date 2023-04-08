@@ -9,7 +9,7 @@ function MainBottomBlock() {
       <OrderBook />
       <StartTrading />
       <DepthChart />
-      <Trades />
+      <Trades isBottom />
     </div>
   );
 }

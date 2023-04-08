@@ -1,4 +1,8 @@
-function Trades() {
+type TradesProps = {
+  isBottom: boolean;
+};
+
+function Trades({ isBottom }: TradesProps) {
   return (
     <div className="hidden sm:flex sm:flex-col text-gray-400 text-xs md:hidden">
       <div className="uppercase flex justify-between border-b border-l border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t">
