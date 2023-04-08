@@ -10,7 +10,7 @@ function Trades({ isBottom }: TradesProps) {
       }`}>
       <div
         className={`uppercase flex justify-between border-b border-l border-gray-700 bg-zinc-800 text-gray-400 text-small  sm:border-t ${
-          isBottom ? 'p-3' : 'p-1'
+          isBottom ? 'p-3' : 'p-1 md:w-80'
         }`}>
         <p>Trades</p>
         <span className="text-blue-500 cursor-pointer">
