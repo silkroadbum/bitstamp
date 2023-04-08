@@ -27,7 +27,7 @@ function Trades({ isBottom }: TradesProps) {
       <div className="flex border-b border-gray-700 p-1 text-small">
         <p className="flex-1 text-right">Amount</p>
         <p className="flex-1 text-right">Time</p>
-        <p className="flex-1 text-right">Price</p>
+        <p className="flex-1 text-right px-2">Price</p>
       </div>
       <ul>
         {tradeMocks.map((item, i) => (
