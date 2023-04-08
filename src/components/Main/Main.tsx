@@ -1,8 +1,10 @@
+import MainTopBlock from '../MainTopBlock/MainTopBlock';
+
 function Main() {
   return (
-    <div className="flex-1 bg-black text-white">
-      <h1>Основное содержимое</h1>
-    </div>
+    <main className="flex-1 bg-zinc-900">
+      <MainTopBlock />
+    </main>
   );
 }
 

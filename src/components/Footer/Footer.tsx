@@ -2,7 +2,7 @@ import FooterList from '../FooterList/FooterList';
 
 function Footer() {
   return (
-    <footer className="bg-black border-t border-gray-700 h-8 flex items-center p-2">
+    <footer className="bg-zinc-900 border-t border-gray-700 h-8 flex items-center p-2">
       <button className="text-gray-600 hover:text-gray-400 mr-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"

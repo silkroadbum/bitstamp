@@ -6,6 +6,9 @@ module.exports = {
       fontSize: {
         small: '10px',
       },
+      spacing: {
+        graph: '456px',
+      },
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo';
 
 function Header() {
   return (
-    <header className="bg-black p-4 h-12 flex items-center justify-between">
+    <header className="bg-zinc-900 p-4 h-12 flex items-center justify-between">
       <div className="flex items-center">
         <a href="/" className="text-white mr-3">
           <Logo />
