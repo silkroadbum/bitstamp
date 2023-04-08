@@ -4,7 +4,10 @@ type TradesProps = {
 
 function Trades({ isBottom }: TradesProps) {
   return (
-    <div className="hidden sm:flex sm:flex-col text-gray-400 text-xs md:hidden">
+    <div
+      className={`hidden text-gray-400 text-xs  ${
+        isBottom ? 'sm:flex sm:flex-col md:hidden' : 'md:flex md:flex-col'
+      }`}>
       <div className="uppercase flex justify-between border-b border-l border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t">
         <p>Trades</p>
         <span className="text-blue-500 cursor-pointer">
