@@ -1,6 +1,6 @@
 function StartTrading() {
   return (
-    <div className="text-gray-400 text-xs md:hidden">
+    <div className="text-gray-400 text-xs md:hidden sm:border-l border-gray-700">
       <p className="uppercase border-b border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t">
         Start Trading
       </p>
