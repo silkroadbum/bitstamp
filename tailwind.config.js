@@ -8,6 +8,8 @@ module.exports = {
       },
       spacing: {
         graph: '456px',
+        small: '300px',
+        'graph-small': '221px',
       },
     },
   },

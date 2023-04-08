@@ -5,8 +5,8 @@ import TopChartMenu from '../TopChartMenu/TopChartMenu';
 
 function MainTopBlock() {
   return (
-    <section className="flex">
-      <div className="flex flex-1">
+    <section className="flex sm:h-small md:h-auto">
+      <div className="flex flex-1 overflow-hidden">
         <LeftChartMenu />
         <div className="flex-1">
           <TopChartMenu />

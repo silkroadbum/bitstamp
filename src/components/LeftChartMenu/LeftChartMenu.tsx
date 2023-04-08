@@ -1,6 +1,6 @@
 function LeftChartMenu() {
   return (
-    <div className="w-14 text-gray-500 flex flex-col">
+    <div className="w-14 text-gray-500 flex flex-col overflow-hidden">
       <ul className="w-full bg-zinc-800 border border-gray-700 flex flex-col items-center pt-2 pb-2">
         <li className="hover:text-white cursor-pointer mb-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
