@@ -26,7 +26,7 @@ function BottomChartMenu() {
       </li>
       <li className="flex-1"></li>
       <li className="hover:text-white flex items-center px-1 pr-3 border-r border-gray-700 cursor-default">
-        <Time /> (UTC)
+        <Time /> (UTC+6)
       </li>
       <li className="hover:text-white flex items-center px-1 cursor-default pl-3">%</li>
       <li className="hover:text-white flex items-center px-1 cursor-default">log</li>
