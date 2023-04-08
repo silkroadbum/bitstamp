@@ -1,3 +1,5 @@
+import { tradeMocks } from '../../const';
+
 type TradesProps = {
   isBottom: boolean;
 };
@@ -27,8 +29,15 @@ function Trades({ isBottom }: TradesProps) {
         <p className="flex-1 text-right">Time</p>
         <p className="flex-1 text-right">Price</p>
       </div>
-
-      <img className="flex-1 object-fill" src="/img/4.png" alt="trades" />
+      <ul>
+        {tradeMocks.map((item, i) => (
+          <li key={i} className="flex text-white">
+            <span className="flex-1 text-right">{item.amount}</span>
+            <span className="flex-1 text-right">{item.time}</span>
+            <span className="flex-1 text-right text-red-500 px-2">{item.price}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

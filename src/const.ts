@@ -17,3 +17,46 @@ export const сurrencyPairs = [
   { name: 'STORJ/USD', changePercent: '+3,42%', change: '0.42367' },
   { name: 'AXS/EUR', changePercent: '+3,34%', change: '8.06644' },
 ];
+
+export const tradeMocks = [
+  {
+    amount: '873.00023',
+    time: '10:18:36',
+    price: '0.4567',
+  },
+  {
+    amount: '833.00233',
+    time: '11:18:36',
+    price: '0.4231',
+  },
+  {
+    amount: '102.00345',
+    time: '09:15:36',
+    price: '0.1324',
+  },
+  {
+    amount: '532.23123',
+    time: '07:00:36',
+    price: '0.4323',
+  },
+  {
+    amount: '543.12323',
+    time: '06:23:23',
+    price: '0.2222',
+  },
+  {
+    amount: '222.55523',
+    time: '03:11:36',
+    price: '0.9999',
+  },
+  {
+    amount: '444.88823',
+    time: '02:02:36',
+    price: '0.6666',
+  },
+  {
+    amount: '333.77723',
+    time: '06:18:21',
+    price: '0.6542',
+  },
+];
