@@ -1,3 +1,5 @@
+import Time from '../Time/Time';
+
 function BottomChartMenu() {
   return (
     <ul className="h-10 flex flex-1 bg-zinc-900 border-t border-b border-r border-gray-700 text-gray-500 text-xs p-3">
@@ -24,7 +26,7 @@ function BottomChartMenu() {
       </li>
       <li className="flex-1"></li>
       <li className="hover:text-white flex items-center px-1 pr-3 border-r border-gray-700 cursor-default">
-        10:26:17 (UTC)
+        <Time /> (UTC)
       </li>
       <li className="hover:text-white flex items-center px-1 cursor-default pl-3">%</li>
       <li className="hover:text-white flex items-center px-1 cursor-default">log</li>
