@@ -10,14 +10,14 @@ function OrderBook() {
             <p className="flex-1 text-right">Amount</p>
             <p className="flex-1 text-right">Bid</p>
           </div>
-          <img className="flex-1 object-fill" src="/img/1.png" alt="" />
+          <img className="flex-1 object-fill" src="/img/1.png" alt="order-1" />
         </div>
         <div className="flex flex-col flex-1">
           <div className="flex p-1">
             <p className="flex-1">Ask</p>
             <p className="flex-1 text-right">Amount</p>
           </div>
-          <img className="flex-1 object-fill" src="/img/2.png" alt="" />
+          <img className="flex-1 object-fill" src="/img/2.png" alt="order-2" />
         </div>
       </div>
     </div>
