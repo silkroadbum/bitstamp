@@ -38,7 +38,7 @@ function Header() {
       </div>
       <ButtonsBlock showMenu={showMenu} isVisibleMenu={isVisibleMenu} />
       <nav
-        className={`absolute bg-zinc-700 top-12 left-0 right-0 bottom-0 z-50 text-xl h-screen flex flex-col pb-12 justify-between md:hidden ${
+        className={`absolute bg-zinc-700 top-12 left-0 right-0 z-50 text-xl h-auto flex flex-col justify-between md:hidden ${
           isVisibleMenu ? '' : 'hidden'
         }`}>
         <ul className="p-4">

@@ -28,7 +28,7 @@ function Trades({ isBottom }: TradesProps) {
         <p className="flex-1 text-right">Price</p>
       </div>
 
-      <img className="flex-1 object-cover" src="/img/4.png" alt="trades" />
+      <img className="flex-1 object-fill" src="/img/4.png" alt="trades" />
     </div>
   );
 }
