@@ -1,6 +1,9 @@
-import React from 'react';
+type ButtonsBlockProps = {
+  showMenu: () => void;
+  isVisibleMenu: boolean;
+};
 
-function ButtonsBlock() {
+function ButtonsBlock({ showMenu, isVisibleMenu }: ButtonsBlockProps) {
   return (
     <div className="flex items-center">
       <button className="hidden md:block w-20 h-6 border text-xs border-blue-500 bg-transparent text-blue-500 hover:border-blue-600 hover:text-blue-600 rounded transition-all duration-300 mr-4">
@@ -17,20 +20,32 @@ function ButtonsBlock() {
             fill="currentColor"></path>
         </svg>
       </button>
-      <button className="block md:hidden text-gray-300">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-6 h-6">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
+      <button onClick={showMenu} className="block md:hidden text-gray-300">
+        {isVisibleMenu ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className="w-6 h-6">
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        )}
       </button>
     </div>
   );
