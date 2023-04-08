@@ -1,6 +1,7 @@
 import DepthChart from '../DepthChart/DepthChart';
 import OrderBook from '../OrderBook/OrderBook';
 import StartTrading from '../StartTrading/StartTrading';
+import Trades from '../Trades/Trades';
 
 function MainBottomBlock() {
   return (
@@ -8,6 +9,7 @@ function MainBottomBlock() {
       <OrderBook />
       <StartTrading />
       <DepthChart />
+      <Trades />
     </div>
   );
 }
