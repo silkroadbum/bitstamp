@@ -7,11 +7,11 @@ type TradesProps = {
 function Trades({ isBottom }: TradesProps) {
   return (
     <div
-      className={`hidden text-gray-400 text-xs ${
+      className={`hidden text-gray-400 text-xs border-l border-gray-700 ${
         isBottom ? 'sm:flex sm:flex-col md:hidden' : 'md:flex md:flex-col md:w-80'
       }`}>
       <div
-        className={`uppercase flex justify-between border-b border-l border-gray-700 bg-zinc-800 text-gray-400 text-small  sm:border-t ${
+        className={`uppercase flex justify-between border-b border-gray-700 bg-zinc-800 text-gray-400 text-small  sm:border-t ${
           isBottom ? 'p-3' : 'p-1 md:w-80'
         }`}>
         <p>Trades</p>
@@ -24,7 +24,7 @@ function Trades({ isBottom }: TradesProps) {
           </svg>
         </span>
       </div>
-      <div className="flex border-b border-l border-gray-700 p-1 text-small">
+      <div className="flex border-b border-gray-700 p-1 text-small">
         <p className="flex-1 text-right">Amount</p>
         <p className="flex-1 text-right">Time</p>
         <p className="flex-1 text-right">Price</p>
