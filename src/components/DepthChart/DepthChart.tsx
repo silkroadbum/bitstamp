@@ -1,6 +1,6 @@
 function DepthChart() {
   return (
-    <div className="hidden sm:flex sm:flex-col text-gray-400 text-xs md:w-80 lg:flex-1">
+    <div className="hidden sm:flex sm:flex-col border-b border-gray-700 text-gray-400 text-xs md:w-80 lg:flex-1">
       <p className="uppercase border-b border-gray-700 bg-zinc-800 text-gray-400 text-small p-3 sm:border-t">
         DEPTH CHART
       </p>
